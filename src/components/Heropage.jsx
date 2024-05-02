@@ -3,10 +3,10 @@
 const Heropage = () => {
   return (
     <div>
-        <div className="px-24 flex items-center gap-8 justify-between bg-[#bae6fd] min-h-max pt-28  rounded-2xl">
+        <div className="px-24 flex items-center gap-8 justify-between bg-[#bae6fd] min-h-max pt-28  rounded-3xl">
 
             <div className="flex flex-col gap-8">
-                <div className="bg-white text-red-700 font-bold p-2 border-l-2 border-red-700 w-1/2">
+                <div className="bg-white text-red-700 font-bold p-2 pl-4 border-l-2 border-red-700 w-1/2">
                     <p>Online Learning Platform</p>
                 </div>
 
