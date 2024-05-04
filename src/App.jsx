@@ -5,6 +5,7 @@ import Featured from "./components/Featured";
 import EventsPage from "./components/eventsPage";
 import StudentsPreview from "./components/studentsPreview";
 import StatsPage from "./components/StatsPage";
+import Footer from "./components/footer";
 import"./App.css";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <EventsPage />
       <StudentsPreview />
       <StatsPage />
+      <Footer />
     </div>
   )
 }

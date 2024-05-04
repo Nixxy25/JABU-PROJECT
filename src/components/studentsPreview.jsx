@@ -27,9 +27,9 @@ const StudentsPreview = () => {
         <div className="flex justify-center items-center flex-col gap-4 pb-16">
             <div><p className="border-t-2 border-red-600 text-red-600 bg-red-100 p-2 px-4 font-bold">Student Reviews</p></div>
 
-            <div className="text-[42px] font-bold flex flex-col">What Our Students <span className="text-center">Saying</span></div>
+            <div className="text-[42px] text-center font-bold flex flex-col max-sm:text-3xl">What Our Students <span className="text-center">Saying</span></div>
 
-            <p className="text-gray-400 flex flex-col">Through a combination of lectures, readings, discussions, students will gain a <span className="text-center">solid foundation in educational psychology</span></p>
+            <p className="text-gray-400 text-center flex flex-col max-sm:text-[16px]">Through a combination of lectures, readings, discussions, students will gain a <span className="text-center">solid foundation in educational psychology</span></p>
         </div>
 
         <Carousel responsive={responsive} showDots={true} removeArrowOnDeviceType={["tablet", "mobile", "desktop"]} className="">

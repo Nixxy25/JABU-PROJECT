@@ -2,7 +2,7 @@
 const FeaturedCard = () => {
   return (
     <div>
-    <div className="grid grid-cols-3 gap-8">
+    <div className="grid grid-cols-3 gap-8 max-sm:grid-cols-1">
             
         
     <div className="bg-white rounded-lg p-2 flex flex-col gap-5">

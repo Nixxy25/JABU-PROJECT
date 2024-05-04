@@ -25,21 +25,14 @@ const EventsPage = () => {
       
   return (
     <div>
-        <div className="bg-gray-300 px-24 py-20">
-            <div className="flex justify-between items-center pb-12">
+        <div className="bg-gray-300 px-24 py-20 max-sm:px-4">
+            <div className="flex justify-between gap-4 items-center pb-10 max-sm:block">
                 <div className="flex flex-col gap-2">
                     <p className="text-red-600 font-bold bg-red-100 p-2 border-l-2 border-red-600 w-3/4">Conference on Education</p>
                     <p className="text-[40px] font-bold flex">Upcoming Events</p>
                 </div>
 
-                <div className="flex gap-4 items-center">
-                    <div className="rounded-full flex bg-white p-3">
-                        <svg className="w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
-                    </div>
-                    <div className="rounded-full flex bg-white p-3">
-                        <svg className="w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
-                    </div>
-                </div>
+              
             </div>
 
             <Carousel className="px-2 py-3" responsive={responsive}>
