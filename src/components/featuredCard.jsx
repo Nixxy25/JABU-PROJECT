@@ -1,4 +1,5 @@
-
+import featuredImage from "../assets/blog-21.jpg";
+import featuredLogo from "../assets/grid.png"
 const FeaturedCard = () => {
   return (
     <div>
@@ -7,11 +8,11 @@ const FeaturedCard = () => {
         
     <div className="bg-white rounded-lg p-2 flex flex-col gap-5">
         <div>
-            <img src="/src/assets/blog-21.jpg"></img>
+            <img alt="featuredImage" src={featuredImage}></img>
         </div>
 
         <div className="flex ml-4 gap-4">
-            <img src="/src/assets/grid.png"></img>
+            <img alt="featuredLogo" src={featuredLogo}></img>
             <p>University Of London</p>
         </div>
 
@@ -41,11 +42,11 @@ const FeaturedCard = () => {
 
     <div className="bg-white rounded-lg p-2 flex flex-col gap-5">
         <div>
-            <img src="/src/assets/blog-21.jpg"></img>
+            <img alt="featuredImage" src={featuredImage}></img>
         </div>
 
         <div className="flex ml-4 gap-4">
-            <img src="/src/assets/grid.png"></img>
+            <img alt="featuredLogo" src={featuredLogo}></img>
             <p>University Of London</p>
         </div>
 
@@ -75,11 +76,11 @@ const FeaturedCard = () => {
 
     <div className="bg-white rounded-lg p-2 flex flex-col gap-5">
     <div>
-        <img src="/src/assets/blog-21.jpg"></img>
+        <img alt="featuredImage" src={featuredImage}></img>
     </div>
 
     <div className="flex ml-4 gap-4">
-        <img src="/src/assets/grid.png"></img>
+        <img alt="featuredLogo" src={featuredLogo}></img>
         <p>University Of London</p>
     </div>
 
@@ -110,11 +111,11 @@ const FeaturedCard = () => {
 
 <div className="bg-white rounded-lg p-2 flex flex-col gap-5">
 <div>
-    <img src="/src/assets/blog-21.jpg"></img>
+    <img alt="featuredImage" src={featuredImage}></img>
 </div>
 
 <div className="flex ml-4 gap-4">
-    <img src="/src/assets/grid.png"></img>
+    <img alt="featuredLogo" src={featuredLogo}></img>
     <p>University Of London</p>
 </div>
 
@@ -144,11 +145,11 @@ const FeaturedCard = () => {
 
 <div className="bg-white rounded-lg p-2 flex flex-col gap-5">
 <div>
-    <img src="/src/assets/blog-21.jpg"></img>
+    <img alt="featuredImage" src={featuredImage}></img>
 </div>
 
 <div className="flex ml-4 gap-4">
-    <img src="/src/assets/grid.png"></img>
+    <img alt="featuredLogo" src={featuredLogo}></img>
     <p>University Of London</p>
 </div>
 
@@ -178,11 +179,11 @@ const FeaturedCard = () => {
 
     <div className="bg-white rounded-lg p-2 flex flex-col gap-5">
         <div>
-            <img src="/src/assets/blog-21.jpg"></img>
+            <img alt="featuredImage" src={featuredImage}></img>
         </div>
 
         <div className="flex ml-4 gap-4">
-            <img src="/src/assets/grid.png"></img>
+            <img alt="featuredLogo" src={featuredLogo}></img>
             <p>University Of London</p>
         </div>
 

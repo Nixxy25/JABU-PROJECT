@@ -1,9 +1,9 @@
-
+import heroImage from "../assets/jabu-hero-removebg-preview.png"
 
 const Heropage = () => {
   return (
     <div>
-        <div className="px-24 max-sm:px-4 flex items-center gap-8 justify-between bg-[#bae6fd] py-36  rounded-xl">
+        <div className="px-24 max-sm:px-4 flex items-center pt-32 gap-8 justify-between bg-[#bae6fd] max-sm:py-36  rounded-xl">
 
             <div className="flex flex-col gap-8">
                 <div className="w-1/2 max-sm:w-3/4 text-sm">
@@ -15,11 +15,11 @@ const Heropage = () => {
                 <div className="text-gray-600 max-sm:text-[15.4px]">Through a combination of lectures, readings, and discussions, students
                 will gain a solid foundation in educational psychology.</div>
 
-                <div ><button className="bg-blue-600 text-white p-4 px-6 rounded-md font-bold" >View All Course</button></div>
+                <div className=""><button className="bg-blue-600 text-white p-4 px-6 rounded-md font-bold" >View All Course</button></div>
             </div>
 
             <div className="w-full max-lg:hidden">
-                <img className="" src="/src/assets/fabu-hero2.png" alt="hero-Image"></img>
+                <img className="" src={heroImage} alt="hero-Image"></img>
             </div>
         </div>
     </div>

@@ -1,5 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import featuredImage from "../assets/blog-21.jpg";
 
 const EventsPage = () => {
     const responsive = {
@@ -37,7 +38,7 @@ const EventsPage = () => {
 
             <Carousel className="px-2 py-3" responsive={responsive}>
                 <div className="bg-white py-6 px-4 rounded-lg flex flex-col gap-4 mr-6">
-                    <div><img src="/src/assets/blog-21.jpg"></img></div>
+                    <div><img alt="featuredImage" src={featuredImage}></img></div>
 
                     <div className="flex item-center gap-4">
                         <div className="flex items-center gap-2">
@@ -57,7 +58,7 @@ const EventsPage = () => {
                 </div>
 
                 <div className="bg-white py-6 px-4 rounded-lg flex flex-col gap-4  mr-6">
-                    <div><img src="/src/assets/blog-21.jpg"></img></div>
+                    <div><img alt="featuredImage" src={featuredImage}></img></div>
 
                     <div className="flex item-center gap-4">
                         <div className="flex items-center gap-2">
@@ -77,7 +78,7 @@ const EventsPage = () => {
                 </div>
 
                 <div className="bg-white py-6 px-4 rounded-lg flex flex-col gap-4  mr-6">
-                    <div><img src="/src/assets/blog-21.jpg"></img></div>
+                    <div><img alt="featuredImage" src={featuredImage}></img></div>
 
                     <div className="flex item-center gap-4">
                         <div className="flex items-center gap-2">
@@ -97,7 +98,7 @@ const EventsPage = () => {
                 </div>
 
                 <div className="bg-white py-6 px-4 rounded-lg flex flex-col gap-4  mr-6">
-                    <div><img src="/src/assets/blog-21.jpg"></img></div>
+                    <div><img alt="featuredImage" src={featuredImage}></img></div>
 
                     <div className="flex item-center gap-4">
                         <div className="flex items-center gap-2">

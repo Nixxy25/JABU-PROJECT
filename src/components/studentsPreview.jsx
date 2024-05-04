@@ -1,5 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import studentsLogo from "../assets/tv (3).png"
+import stars from "../assets/dots.png";
 
 const StudentsPreview = () => {
     const responsive = {
@@ -36,7 +38,7 @@ const StudentsPreview = () => {
             <div className="bg-gray-100 px-6 py-12 flex flex-col gap-8 mr-6">
                 <div className="flex justify-between px-2">
                     <div className="flex gap-3">
-                        <div className="w-full"><img src="/src/assets/tv (3).png"></img></div>
+                        <div className="w-full"><img src={studentsLogo}></img></div>
 
                         <div className="">
                             <p className="font-bold">Indigo Violet</p>
@@ -44,7 +46,7 @@ const StudentsPreview = () => {
                         </div>
                     </div>
 
-                    <div><img src="/src/assets/dots.png"></img></div>
+                    <div><img src={stars}></img></div>
                 </div>
                 
                 <div>
@@ -60,7 +62,7 @@ const StudentsPreview = () => {
             <div className="bg-gray-100 px-6 py-12 flex flex-col gap-8 mr-6">
                 <div className="flex justify-between px-2">
                     <div className="flex gap-3">
-                        <div><img src="/src/assets/tv (3).png"></img></div>
+                        <div><img src={studentsLogo}></img></div>
 
                         <div className="">
                             <p className="font-bold">Indigo Violet</p>
@@ -68,56 +70,7 @@ const StudentsPreview = () => {
                         </div>
                     </div>
 
-                    <div><img src="/src/assets/dots.png"></img></div>
-                </div>
-                
-                <div>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                    </p>
-                </div>
-            </div>
-
-
-            <div className="bg-gray-100 px-6 py-12 flex flex-col gap-8 mr-6">
-                <div className="flex justify-between px-2">
-                    <div className="flex gap-3">
-                        <div><img src="/src/assets/tv (3).png"></img></div>
-
-                        <div className="">
-                            <p className="font-bold">Indigo Violet</p>
-                            <p className="text-gray-400">Marketing</p>
-                        </div>
-                    </div>
-
-                    <div><img src="/src/assets/dots.png"></img></div>
-                </div>
-                
-                <div>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                    </p>
-                </div>
-            </div>
-
-            <div className="bg-gray-100 px-6 py-12 flex flex-col gap-8 mr-6">
-                <div className="flex justify-between px-2">
-                    <div className="flex gap-3">
-                        <div><img src="/src/assets/tv (3).png"></img></div>
-
-                        <div className="">
-                            <p className="font-bold">Indigo Violet</p>
-                            <p className="text-gray-400">Marketing</p>
-                        </div>
-                    </div>
-
-                    <div><img src="/src/assets/dots.png"></img></div>
+                    <div><img src={stars}></img></div>
                 </div>
                 
                 <div>
@@ -134,7 +87,7 @@ const StudentsPreview = () => {
             <div className="bg-gray-100 px-6 py-12 flex flex-col gap-8 mr-6">
                 <div className="flex justify-between px-2">
                     <div className="flex gap-3">
-                        <div><img src="/src/assets/tv (3).png"></img></div>
+                        <div><img src={studentsLogo}></img></div>
 
                         <div className="">
                             <p className="font-bold">Indigo Violet</p>
@@ -142,7 +95,7 @@ const StudentsPreview = () => {
                         </div>
                     </div>
 
-                    <div><img src="/src/assets/dots.png"></img></div>
+                    <div><img src={stars}></img></div>
                 </div>
                 
                 <div>
@@ -158,7 +111,7 @@ const StudentsPreview = () => {
             <div className="bg-gray-100 px-6 py-12 flex flex-col gap-8 mr-6">
                 <div className="flex justify-between px-2">
                     <div className="flex gap-3">
-                        <div><img src="/src/assets/tv (3).png"></img></div>
+                        <div><img src={studentsLogo}></img></div>
 
                         <div className="">
                             <p className="font-bold">Indigo Violet</p>
@@ -166,7 +119,56 @@ const StudentsPreview = () => {
                         </div>
                     </div>
 
-                    <div><img src="/src/assets/dots.png"></img></div>
+                    <div><img src={stars}></img></div>
+                </div>
+                
+                <div>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </p>
+                </div>
+            </div>
+
+
+            <div className="bg-gray-100 px-6 py-12 flex flex-col gap-8 mr-6">
+                <div className="flex justify-between px-2">
+                    <div className="flex gap-3">
+                        <div><img src={studentsLogo}></img></div>
+
+                        <div className="">
+                            <p className="font-bold">Indigo Violet</p>
+                            <p className="text-gray-400">Marketing</p>
+                        </div>
+                    </div>
+
+                    <div><img src={stars}></img></div>
+                </div>
+                
+                <div>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </p>
+                </div>
+            </div>
+
+            <div className="bg-gray-100 px-6 py-12 flex flex-col gap-8 mr-6">
+                <div className="flex justify-between px-2">
+                    <div className="flex gap-3">
+                        <div><img src={studentsLogo}></img></div>
+
+                        <div className="">
+                            <p className="font-bold">Indigo Violet</p>
+                            <p className="text-gray-400">Marketing</p>
+                        </div>
+                    </div>
+
+                    <div><img src={stars}></img></div>
                 </div>
                 
                 <div>

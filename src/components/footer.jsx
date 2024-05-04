@@ -1,3 +1,5 @@
+import poolot from "../assets/poolot-logo.png";
+
 const Footer = () => {
   return (
     <div className="px-24 py-24 bg-gray-200 max-sm:px-4 max-sm:py-16">
@@ -5,7 +7,7 @@ const Footer = () => {
         
             <div className="flex flex-col gap-8 pr-8">
                 <div className="flex flex-col gap-4">
-                    <div className="w-32"><img src="/src/assets/poolot-logo.png"></img></div>
+                    <div className="w-32"><img src={poolot}></img></div>
 
                     <p className="text-gray-500">Through a combination of lectures, readings, discussions, students will gain solid 
                     foundation in educational.</p>
