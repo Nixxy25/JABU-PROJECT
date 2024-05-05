@@ -25,7 +25,7 @@ const StudentsPreview = () => {
       };
 
   return (
-    <div className="w-full p-2 py-28 bg-white">
+    <div className="w-full p-2 py-28 bg-white max-sm:pb-10">
         <div className="flex justify-center items-center flex-col gap-4 pb-16">
             <div><p className="border-t-2 border-red-600 text-red-600 bg-red-100 p-2 px-4 font-bold">Student Reviews</p></div>
 
@@ -34,11 +34,11 @@ const StudentsPreview = () => {
             <p className="text-gray-400 text-center flex flex-col max-sm:text-[16px]">Through a combination of lectures, readings, discussions, students will gain a <span className="text-center">solid foundation in educational psychology</span></p>
         </div>
 
-        <Carousel responsive={responsive} showDots={true} removeArrowOnDeviceType={["tablet", "mobile", "desktop"]} className="">
+        <Carousel responsive={responsive} showDots={true}  removeArrowOnDeviceType={["tablet", "mobile", "desktop"]} className="">
             <div className="bg-gray-100 px-6 py-12 flex flex-col gap-8 mr-6">
                 <div className="flex justify-between px-2">
-                    <div className="flex gap-3">
-                        <div className="w-full"><img src={studentsLogo}></img></div>
+                    <div className="flex gap-3 items-center">
+                        <div><img className="w-10" src={studentsLogo}></img></div>
 
                         <div className="">
                             <p className="font-bold">Indigo Violet</p>

@@ -48,7 +48,7 @@ const Navbar = () => {
                 </div>
 
                 {mobileNav === true && (
-                    <div className="absolute top-0 z-20 flex-col gap-8 bg-orange-500 h-screen oveflow-hidden w-screen px-10 py-4">
+                    <div className="absolute top-0 z-20 flex-col gap-8 bg-black h-screen oveflow-hidden w-screen px-10 py-4">
                         <div className="flex justify-between pb-6">
                             <img className="w-32" src={poolot}></img>
 
