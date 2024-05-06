@@ -25,7 +25,7 @@ const StudentsPreview = () => {
       };
 
   return (
-    <div className="w-full p-2 py-28 bg-white max-sm:pb-10">
+    <div className="w-full p-2 py-28 bg-white max-lg:pb-10">
         <div className="flex justify-center items-center flex-col gap-4 pb-16">
             <div><p className="border-t-2 border-red-600 text-red-600 bg-red-100 p-2 px-4 font-bold">Student Reviews</p></div>
 

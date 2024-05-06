@@ -8,7 +8,7 @@ const Navbar = () => {
         setMobileNav(!mobileNav)
     }
   return (
-        <nav className="px-24 py-6 max-sm:p-0">
+        <nav className="px-24 py-6 max-sm:p-0 max-lg:px-0">
 
             <div className="flex justify-between items-center">
                 <div className="flex items-center gap-12 max-lg:hidden">
@@ -44,11 +44,16 @@ const Navbar = () => {
                 <div className="flex  justify-between px-4">
                     <img className="w-32" src={poolot}></img>
 
-                    <svg className="w-5" xmlns="http://www.w3.org/2000/svg" onClick={handleMobileNav} viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    <div className="flex items-center gap-4">
+                            <button type="button" className="max-sm:hidden bg-blue-600 text-white p-3 font-bold rounded-md hover:bg-blue-800 changes">Enroll Now</button>
+                            <svg className="w-5" xmlns="http://www.w3.org/2000/svg" onClick={handleMobileNav} viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    </div>
+
+                    
                 </div>
 
                 {mobileNav === true && (
-                    <div className="absolute top-0 right-0 flex-col gap-8 bg-black h-screen oveflow-hidden w-screen px-10 py-4">
+                    <div className="absolute top-0 z-20 max-lg:w-1/2 max-sm:w-full right-0 flex-col gap-8 bg-black h-screen oveflow-hidden w-screen px-10 py-4">
                         <div className="flex justify-between pb-6">
                             <img className="w-32" src={poolot}></img>
 

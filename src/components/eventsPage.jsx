@@ -27,7 +27,7 @@ const EventsPage = () => {
       
   return (
     <div>
-        <div className="bg-gray-300 px-24 py-20 max-sm:px-4">
+        <div className="bg-gray-300 px-24 py-20 max-sm:px-4 max-lg:px-10">
             <div className="flex justify-between gap-4 items-center pb-10 max-sm:block">
                 <div className="flex flex-col gap-2">
                     <p className="text-red-600 font-bold bg-red-100 p-2 border-l-2 border-red-600 w-3/4">Conference on Education</p>

@@ -2,8 +2,8 @@ import poolot from "../assets/poolot-logo.png";
 
 const Footer = () => {
   return (
-    <div className="px-24 py-24 bg-gray-200 max-sm:px-4 max-sm:py-16">
-        <div className="grid grid-cols-4 max-sm:gap-8  pb-20 max-sm:grid-cols-1">
+    <div className="px-24 py-24 bg-gray-200 max-sm:px-4 max-sm:py-16 max-lg:px-10">
+        <div className="grid grid-cols-4 max-sm:gap-8  pb-20 max-sm:grid-cols-1 max-lg:grid-cols-2 max-lg:gap-10">
         
             <div className="flex flex-col gap-8 pr-8">
                 <div className="flex flex-col gap-4">
