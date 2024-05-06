@@ -33,7 +33,7 @@ const Sponsorspage = () => {
     <div className=" px-24 py-20 max-sm:px-4 max-lg:px-10">
         <div className="text-center text-xl font-bold pb-10">340+ Leading Universities And Companies</div>
 
-        <div className="border-2 logos border-gray-300  p-10 max-sm:px-8 max-sm:py-6">
+        <div className="border-2 logos border-gray-300 ">
       
           <Carousel responsive={responsive}  
             removeArrowOnDeviceType={["tablet", "mobile","desktop"]} 
