@@ -10,20 +10,21 @@ const Navbar = () => {
   return (
         <nav className="px-24 py-6 max-sm:p-0 max-lg:px-0">
 
-            <div className="flex justify-between items-center">
-                <div className="flex items-center gap-12 max-lg:hidden">
-                
-                    <img className="cursor-pointer w-32 border-r border-gray-400" alt="poolot-logo" src={poolot}></img>
+           
+                <div className="flex items-center justify-between max-lg:hidden">
+                    <div className="flex items-center gap-6">
+                    <img className="cursor-pointer w-32 " alt="poolot-logo" src={poolot}></img>
                     
 
                     <div>
-                        <ul className="cursor-pointer flex gap-12 items-center text-lg font-semibold">
+                        <ul className="cursor-pointer border-l border-gray-400 px-6 flex gap-12 items-center text-lg font-semibold">
                             <li className="hover:text-blue-500 changes">Home</li>
                             <li className="hover:text-blue-500 changes">Courses</li>
                             <li className="hover:text-blue-500 changes">Pages</li>
                             <li className="hover:text-blue-500 changes">Blog</li>
                             <li className="hover:text-blue-500 changes">Contact</li>
                         </ul>
+                    </div>
                     </div>
 
                     <div className="flex items-center gap-6">
@@ -38,7 +39,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            
 
             <div className="lg:hidden relative ">
                 <div className="flex  justify-between px-4">

@@ -1,31 +1,5 @@
 
-@keyframes slide {
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100%);
-    }
-}
 
-.logos{
-    overflow: hidden;
-    background-color: white;
-    white-space: nowrap;
-}
-
-.logos-slide:hover img{
-    transition: 0.5s;
-    fill: black;
-
-}
-.logos-slide{
-    
-    animation: s slide infinite linear;
-}
-.logos::before{
-
-}
 .logos-slide img{
     height: 40px;
 }
