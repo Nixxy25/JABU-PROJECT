@@ -37,13 +37,12 @@ const Sponsorspage = () => {
       
           <Carousel responsive={responsive}  
             removeArrowOnDeviceType={["tablet", "mobile","desktop"]} 
-            className="logos-slide flex items-center p-6 border-2 logos border-gray-300 "
+            className=" flex items-center p-6 border-2 logos border-gray-300 "
             autoPlay={true}
-            infinite={true}
+            
             autoPlaySpeed={1500}
-            keyBoardControl={true}
-            customTransition="all .10"
-            transitionDuration={500}
+            
+      
           >
             <img className="w-32" src={clickup} alt=""></img>
             <img className="w-32"  src={twillo} alt=""></img>
