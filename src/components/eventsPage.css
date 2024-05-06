@@ -1,0 +1,11 @@
+.card:hover .card-img {
+    transform: scale(1.2);
+    transition: 2s;
+   
+}
+.transition:hover{
+    transition: 1s;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}

@@ -2,6 +2,13 @@ import "./Sponsorspage.css"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import dropbox from "../../assets/dropbox.png"
+import twillo from "../../assets/twillo.png"
+import slack from "../../assets/slack1.png"
+import shopify from "../../assets/shopify.png"
+import init from "../../assets/intuit.png"
+import clickup from "../../assets/clickUp.png"
+
 const Sponsorspage = () => {
   const responsive = {
     superLargeDesktop: {
@@ -26,11 +33,11 @@ const Sponsorspage = () => {
     <div className=" px-24 py-20 max-sm:px-4">
         <div className="text-center text-xl font-bold pb-10">340+ Leading Universities And Companies</div>
 
-        <div className="border-2 border-gray-300 p-10 max-sm:p-4">
+        <div className="border-2 logos border-gray-300  p-10 max-sm:px-8 max-sm:py-6">
       
           <Carousel responsive={responsive}  
             removeArrowOnDeviceType={["tablet", "mobile","desktop"]} 
-            className="logos-slide flex items-center justify-around max-sm:justify-between"
+            className="logos-slide flex items-center justify-around"
             autoPlay={true}
             infinite={true}
             autoPlaySpeed={1500}
@@ -38,12 +45,12 @@ const Sponsorspage = () => {
             customTransition="all .10"
             transitionDuration={500}
           >
-            <img src="/src/assets/clickUp.png" alt=""></img>
-            <img src="/src/assets/dropbox.png" alt=""></img>
-            <img src="/src/assets/intuit.png" alt=""></img>
-            <img src="/src/assets/shopify.png" alt=""></img>
-            <img src="/src/assets/slack1.png" alt=""></img>
-            <img src="/src/assets/twillo.png" alt=""></img>
+            <img className="w-32" src={clickup} alt=""></img>
+            <img className="w-32"  src={twillo} alt=""></img>
+            <img className="w-32" src={slack}  alt=""></img>
+            <img className="w-32"  src={shopify}  alt=""></img>
+            <img className="w-32"  src={init}  alt=""></img>
+            <img className="w-32"  src={dropbox}  alt=""></img>
           </Carousel>
 
         </div>

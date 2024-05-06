@@ -5,3 +5,7 @@
 .active{
     background-color: red;
 }
+
+.changes:hover{
+    transition: 0.5s;
+}

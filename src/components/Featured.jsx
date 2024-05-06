@@ -1,6 +1,7 @@
 import FeaturedCard from "./featuredCard"
 
 const Featured = () => {
+
   return (
     <div className="px-24 py-20 bg-gray-200 max-sm:px-4">
         <div className="flex flex-col justify-center items-center gap-4 pb-8">

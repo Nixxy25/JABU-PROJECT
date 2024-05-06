@@ -15,11 +15,11 @@ const Heropage = () => {
                 <div className="text-gray-600 max-sm:text-[15.4px]">Through a combination of lectures, readings, and discussions, students
                 will gain a solid foundation in educational psychology.</div>
 
-                <div className=""><button className="bg-blue-600 text-white p-4 px-6 rounded-md font-bold" >View All Course</button></div>
+                <div className=""><button className="bg-blue-600 text-white p-4 px-6 rounded-md font-bold hover:bg-blue-800 changes" >View All Course</button></div>
             </div>
 
-            <div className="w-full bg-red-800 max-lg:hidden">
-                <img className="w-full h-[500px]" src={heroImage} alt="hero-Image"></img>
+            <div className="w-full max-lg:hidden">
+                <img className="w-full h-full" src={heroImage} alt="hero-Image"></img>
             </div>
         </div>
     </div>

@@ -1,0 +1,19 @@
+.card{
+    position: relative;
+    overflow: hidden;
+}
+
+.card-body{
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    left: 0;
+    position: absolute;
+    transition: 1s;
+}
+.card:hover .card-body{
+    top: 0;
+}
+.tive{
+    background-color: rgb(238, 255, 0);
+}

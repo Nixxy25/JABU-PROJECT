@@ -1,6 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import featuredImage from "../assets/blog-21.jpg";
+import './eventsPage.css'
 
 const EventsPage = () => {
     const responsive = {
@@ -37,8 +38,8 @@ const EventsPage = () => {
             </div>
 
             <Carousel className="px-2 py-3" responsive={responsive}>
-                <div className="bg-white py-6 px-4 rounded-lg flex flex-col gap-4 mr-6">
-                    <div><img alt="featuredImage" src={featuredImage}></img></div>
+                <div className="card bg-white py-6 px-4 rounded-lg flex flex-col gap-4 mr-6">
+                    <div><img  className="card-img" alt="featuredImage" src={featuredImage}></img></div>
 
                     <div className="flex item-center gap-4">
                         <div className="flex items-center gap-2">
@@ -52,13 +53,13 @@ const EventsPage = () => {
                         </div>
                     </div>
 
-                    <div className="text-xl font-bold pb-4"><p>Personalized Learning & Meeting The Needs of Every Student.</p></div>
+                    <div className="text-xl font-bold pb-4 hover:text-blue-600"><p>Personalized Learning & Meeting The Needs of Every Student.</p></div>
 
-                    <div ><button className="px-4 py-1 border border-black" type="button">Get Ticket</button></div>
+                    <div ><button className="px-4 py-1 rounded-md border border-black transition" type="button">Get Ticket</button></div>
                 </div>
 
-                <div className="bg-white py-6 px-4 rounded-lg flex flex-col gap-4  mr-6">
-                    <div><img alt="featuredImage" src={featuredImage}></img></div>
+                <div className="card bg-white py-6 px-4 rounded-lg flex flex-col gap-4  mr-6">
+                    <div><img className="card-img" alt="featuredImage" src={featuredImage}></img></div>
 
                     <div className="flex item-center gap-4">
                         <div className="flex items-center gap-2">
@@ -72,13 +73,13 @@ const EventsPage = () => {
                         </div>
                     </div>
 
-                    <div className="text-xl font-bold pb-4"><p>Personalized Learning & Meeting The Needs of Every Student.</p></div>
+                    <div className="text-xl font-bold pb-4 hover:text-blue-600"><p>Personalized Learning & Meeting The Needs of Every Student.</p></div>
 
-                    <div ><button className="px-4 py-1 border border-black" type="button">Get Ticket</button></div>
+                    <div ><button className="px-4 py-1 border border-black transition rounded-md" type="button">Get Ticket</button></div>
                 </div>
 
-                <div className="bg-white py-6 px-4 rounded-lg flex flex-col gap-4  mr-6">
-                    <div><img alt="featuredImage" src={featuredImage}></img></div>
+                <div className="bg-white py-6 px-4 card rounded-lg flex flex-col gap-4  mr-6">
+                    <div><img alt="featuredImage" className="card-img" src={featuredImage}></img></div>
 
                     <div className="flex item-center gap-4">
                         <div className="flex items-center gap-2">
@@ -92,13 +93,13 @@ const EventsPage = () => {
                         </div>
                     </div>
 
-                    <div className="text-xl font-bold pb-4"><p>Personalized Learning & Meeting The Needs of Every Student.</p></div>
+                    <div className="text-xl font-bold pb-4 hover:text-blue-600"><p>Personalized Learning & Meeting The Needs of Every Student.</p></div>
 
-                    <div ><button className="px-4 py-1 border border-black" type="button">Get Ticket</button></div>
+                    <div ><button className="px-4 py-1 border border-black transition rounded-md" type="button">Get Ticket</button></div>
                 </div>
 
-                <div className="bg-white py-6 px-4 rounded-lg flex flex-col gap-4  mr-6">
-                    <div><img alt="featuredImage" src={featuredImage}></img></div>
+                <div className="bg-white py-6 px-4 card rounded-lg flex flex-col gap-4  mr-6">
+                    <div><img alt="featuredImage" className="card-img" src={featuredImage}></img></div>
 
                     <div className="flex item-center gap-4">
                         <div className="flex items-center gap-2">
@@ -112,9 +113,9 @@ const EventsPage = () => {
                         </div>
                     </div>
 
-                    <div className="text-xl font-bold pb-4"><p>Personalized Learning & Meeting The Needs of Every Student.</p></div>
+                    <div className="text-xl font-bold pb-4 hover:text-blue-600"><p>Personalized Learning & Meeting The Needs of Every Student.</p></div>
 
-                    <div ><button className="px-4 py-1 border border-black" type="button">Get Ticket</button></div>
+                    <div ><button className="px-4 py-1 border border-black transition rounded-md" type="button">Get Ticket</button></div>
                 </div>
             </Carousel>
         </div>

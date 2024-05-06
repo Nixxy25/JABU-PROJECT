@@ -1,12 +1,15 @@
 import featuredImage from "../assets/blog-21.jpg";
-import featuredLogo from "../assets/grid.png"
+import featuredLogo from "../assets/grid.png";
+import FeaturedHover from "./featuredHover";
+import "./featured.css";
+
 const FeaturedCard = () => {
   return (
     <div>
     <div className="grid grid-cols-3 gap-8 max-sm:grid-cols-1">
             
         
-    <div className="bg-white rounded-lg p-2 flex flex-col gap-5">
+    <div className="card bg-white py-4 rounded-lg p-2 flex flex-col gap-5">
         <div>
             <img alt="featuredImage" src={featuredImage}></img>
         </div>
@@ -37,10 +40,12 @@ const FeaturedCard = () => {
             </div>
         </div>
 
-        
+
+      
+        <FeaturedHover />
     </div>
 
-    <div className="bg-white rounded-lg p-2 flex flex-col gap-5">
+    <div className="card bg-white rounded-lg  py-4 p-2 flex flex-col gap-5">
         <div>
             <img alt="featuredImage" src={featuredImage}></img>
         </div>
@@ -71,10 +76,10 @@ const FeaturedCard = () => {
             </div>
         </div>
 
-        
+        <FeaturedHover />
     </div>
 
-    <div className="bg-white rounded-lg p-2 flex flex-col gap-5">
+    <div className="card bg-white rounded-lg p-2  py-4 flex flex-col gap-5">
     <div>
         <img alt="featuredImage" src={featuredImage}></img>
     </div>
@@ -105,11 +110,12 @@ const FeaturedCard = () => {
         </div>
     </div>
 
+    <FeaturedHover />
     
 </div>
 
 
-<div className="bg-white rounded-lg p-2 flex flex-col gap-5">
+<div className="card bg-white rounded-lg p-2  py-4 flex flex-col gap-5">
 <div>
     <img alt="featuredImage" src={featuredImage}></img>
 </div>
@@ -140,10 +146,11 @@ const FeaturedCard = () => {
     </div>
 </div>
 
+<FeaturedHover />
 
 </div>
 
-<div className="bg-white rounded-lg p-2 flex flex-col gap-5">
+<div className="card bg-white rounded-lg p-2  py-4 flex flex-col gap-5">
 <div>
     <img alt="featuredImage" src={featuredImage}></img>
 </div>
@@ -174,10 +181,10 @@ const FeaturedCard = () => {
     </div>
 </div>
 
-
+<FeaturedHover />
 </div>
 
-    <div className="bg-white rounded-lg p-2 flex flex-col gap-5">
+    <div className="card bg-white rounded-lg p-2  py-4 flex flex-col gap-5">
         <div>
             <img alt="featuredImage" src={featuredImage}></img>
         </div>
@@ -208,7 +215,7 @@ const FeaturedCard = () => {
             </div>
         </div>
 
-        
+        <FeaturedHover />
     </div>
 </div>
     </div>

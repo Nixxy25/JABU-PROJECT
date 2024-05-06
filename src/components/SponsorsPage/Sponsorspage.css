@@ -14,8 +14,9 @@
     white-space: nowrap;
 }
 
-.logos:hover .logos-slide{
-    animation-play-state: paused;
+.logos-slide:hover img{
+    transition: 0.5s;
+    fill: black;
 
 }
 .logos-slide{
