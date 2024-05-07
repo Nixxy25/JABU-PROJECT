@@ -3,7 +3,7 @@ import heroImage from "../assets/fabu-hero2.png"
 const Heropage = () => {
   return (
     <div>
-        <div className="px-24 max-sm:px-4 max-lg:px-10 flex items-center pt-24 gap-8 justify-between bg-[#bae6fd] max-lg:py-36  rounded-xl">
+        <div className="px-24 py-20 max-sm:px-4 max-lg:px-10 flex items-center pt-28 gap-8 justify-between bg-[#bae6fd] max-lg:py-36   rounded-2xl">
 
             <div className="flex flex-col gap-8 w-full">
                 <div className="flex">

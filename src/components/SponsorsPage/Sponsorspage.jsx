@@ -33,17 +33,15 @@ const Sponsorspage = () => {
     <div className=" px-24 py-20 max-sm:px-4 max-lg:px-10">
         <div className="text-center text-xl font-bold pb-10">340+ Leading Universities And Companies</div>
 
-        <div className="border-2 logos border-gray-300  p-10 max-sm:px-8 max-sm:py-6">
+       
       
           <Carousel responsive={responsive}  
             removeArrowOnDeviceType={["tablet", "mobile","desktop"]} 
-            className="logos-slide flex items-center justify-around"
+            className=" flex items-center justify-around border-2 logos border-gray-300  p-10 max-sm:px-8 max-sm:py-6 "
             autoPlay={true}
             infinite={true}
             autoPlaySpeed={1500}
-            keyBoardControl={true}
-            customTransition="all .10"
-            transitionDuration={500}
+            
           >
             <img className="w-32" src={clickup} alt=""></img>
             <img className="w-32"  src={twillo} alt=""></img>
@@ -53,7 +51,7 @@ const Sponsorspage = () => {
             <img className="w-32"  src={dropbox}  alt=""></img>
           </Carousel>
 
-        </div>
+        
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import poolot from "../assets/poolot-logo.png";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Navbar = () => {
     const [mobileNav, setMobileNav] = useState(false);
@@ -7,24 +8,44 @@ const Navbar = () => {
     const handleMobileNav = () => {
         setMobileNav(!mobileNav)
     }
+
+    const menuVars = {
+        initial: {
+            scaleX: 0,
+        },
+        animate:{
+            scaleX: 1,
+            transition:{
+                duration: 0.5,
+                ease: [0.12, 0, 0.39, 0],
+            }
+        },
+        exit: {
+            scaleX: 0,
+            transition:{
+                duration: 0.5,
+                ease: [0.22, 1, 0.36, 1],
+            }
+        },
+    }
   return (
-        <nav className="px-24 py-6 max-sm:p-0 max-lg:px-0">
+        <nav className="px-24 py-6 relative max-sm:p-0 max-lg:px-0">
 
            
-                <div className="flex items-center justify-between max-lg:hidden">
+                <div className="flex items-center fixed top-0 z-10 right-0 bg-white w-full justify-between max-lg:hidden px-24 py-2">
                     <div className="flex items-center gap-6">
-                    <img className="cursor-pointer w-32 " alt="poolot-logo" src={poolot}></img>
-                    
+                        <img className="cursor-pointer w-32 " alt="poolot-logo" src={poolot}></img>
+                        
 
-                    <div>
-                        <ul className="cursor-pointer border-l border-gray-400 px-6 flex gap-12 items-center text-lg font-semibold">
-                            <li className="hover:text-blue-500 changes">Home</li>
-                            <li className="hover:text-blue-500 changes">Courses</li>
-                            <li className="hover:text-blue-500 changes">Pages</li>
-                            <li className="hover:text-blue-500 changes">Blog</li>
-                            <li className="hover:text-blue-500 changes">Contact</li>
-                        </ul>
-                    </div>
+                        <div>
+                            <ul className="cursor-pointer border-l border-gray-400 px-6 flex gap-12 items-center text-lg font-semibold">
+                                <li className="hover:text-blue-500 changes">Home</li>
+                                <li className="hover:text-blue-500 changes">Courses</li>
+                                <li className="hover:text-blue-500 changes">Pages</li>
+                                <li className="hover:text-blue-500 changes">Blog</li>
+                                <li className="hover:text-blue-500 changes">Contact</li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div className="flex items-center gap-6">
@@ -42,7 +63,7 @@ const Navbar = () => {
             
 
             <div className="lg:hidden relative ">
-                <div className="flex  justify-between px-4">
+                <div className="flex fixed top-0 w-full bg-white z-10 justify-between px-4 max-sm:px-4 max-lg:px-10 max-lg:py-3">
                     <img className="w-32" src={poolot}></img>
 
                     <div className="flex items-center gap-4">
@@ -53,8 +74,9 @@ const Navbar = () => {
                     
                 </div>
 
+                <AnimatePresence>
                 {mobileNav === true && (
-                    <div className="absolute top-0 z-20 max-lg:w-1/2 max-sm:w-full right-0 flex-col gap-8 bg-black h-screen oveflow-hidden w-screen px-10 py-4">
+                    <motion.div variants={menuVars} initial="initial" animate="animate" exit="exit" className="fixed top-0 origin-right z-20 max-lg:w-1/2 max-sm:w-full right-0 flex-col gap-8 bg-black h-screen oveflow-hidden w-screen px-10 py-4">
                         <div className="flex justify-between pb-6">
                             <img className="w-32" src={poolot}></img>
 
@@ -63,30 +85,31 @@ const Navbar = () => {
 
                         <div className="flex flex-col gap-6 text-white">
                             <div className="flex justify-between items-center">
-                                <p className="text-lg">HOME</p>
+                                <p className="text-lg hover:text-blue-600 changes">HOME</p>
                                 <p className="text-2xl font-bold">+</p>
                             </div>  
 
                             <div className="flex justify-between items-center">
-                                <p className="text-lg">COURSES</p>
+                                <p className="text-lg hover:text-blue-600 changes">COURSES</p>
                                 <p className="text-2xl font-bold">+</p>
                             </div>  
 
                             <div className="flex justify-between items-center">
-                                <p className="text-lg">PAGES</p>
+                                <p className="text-lg hover:text-blue-600 changes">PAGES</p>
                                 <p className="text-2xl font-bold">+</p>
                             </div>  
 
                             <div className="flex justify-between items-center">
-                                <p className="text-lg">BLOG</p>
+                                <p className="text-lg hover:text-blue-600 changes">BLOG</p>
                                 <p className="text-2xl font-bold">+</p>
                             </div>  
 
-                            <div className="text-lg">CONTACT</div>
+                            <div className="text-lg  hover:text-blue-600 changes">CONTACT</div>
 
                         </div>
-                    </div>
+                    </motion.div>
                 )}
+                </AnimatePresence>
             </div>
 
          

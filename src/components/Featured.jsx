@@ -1,5 +1,6 @@
 import FeaturedCard from "./featuredCard"
 
+
 const Featured = () => {
 
   return (
@@ -12,7 +13,7 @@ const Featured = () => {
             <div className="font-bold text-[38px] max-sm:text-[24px] text-center">Explore Featured Coures</div>
 
             <div className="">
-                <ul className="flex bg-white px-16 max-lg:px-8 py-2  rounded-full text-lg max-sm:grid grid-cols-2 max-sm:gap-4  gap-16 text-gray-500">
+                <ul className="flex bg-white px-16 max-lg:px-8 py-2 max-sm:px-12 max-sm:py-6  rounded-full text-lg max-sm:grid grid-cols-2 max-sm:gap-6 gap-16 text-gray-500 max-sm:place-content-center">
                     <li className="cursor-pointer">See All</li>
                     <li className="cursor-pointer">Trending</li>
                     <li className="cursor-pointer">Featured</li>
