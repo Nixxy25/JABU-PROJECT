@@ -3,9 +3,9 @@ import heroImage from "../assets/fabu-hero2.png"
 const Heropage = () => {
   return (
     <div>
-        <div className="px-24 py-20 max-sm:px-4 max-lg:px-10 flex items-center pt-28 gap-8 justify-between bg-[#bae6fd] max-lg:py-36   rounded-2xl">
+        <div className="px-24 pt-32 max-sm:px-4 max-lg:px-10 flex  w-full gap-8 justify-between bg-[#BBE8EB] max-lg:py-36   rounded-2xl">
 
-            <div className="flex flex-col gap-8 w-full">
+            <div className="flex flex-col gap-8 w-full h-full py-20">
                 <div className="flex">
                     <p className="bg-red-100 text-sm text-red-700 font-bold p-2 pl-4 border-l-2 border-red-700">Online Learning Platform</p>
                 </div>
@@ -18,7 +18,7 @@ const Heropage = () => {
                 <div className=""><button className="bg-blue-600 text-white p-4 px-6 rounded-md font-bold hover:bg-blue-800 changes" >View All Course</button></div>
             </div>
 
-            <div className="w-full max-lg:hidden">
+            <div className="w-full max-lg:hidden ">
                 <img className="w-full h-full" src={heroImage} alt="hero-Image"></img>
             </div>
         </div>
