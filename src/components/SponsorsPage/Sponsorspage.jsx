@@ -40,7 +40,6 @@ const Sponsorspage = () => {
             removeArrowOnDeviceType={["tablet", "mobile","desktop"]} 
             className=" flex items-center justify-around border-2 logos border-gray-300  p-10 max-sm:px-8 max-sm:py-6 "
             autoPlay={true}
-            infinite={true}
             autoPlaySpeed={1500}
 
           >

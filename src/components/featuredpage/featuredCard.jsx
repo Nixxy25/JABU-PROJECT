@@ -1,6 +1,6 @@
-import featuredImage from "../assets/blog-21.jpg";
-import featuredLogo from "../assets/grid.png";
-import FeaturedHover from "./featuredHover";
+import featuredImage from "../../assets/blog-21.jpg";
+import featuredLogo from "../../assets/grid.png";
+import FeaturedHover from "../featuredpage/featuredHover";
 import "./featured.css";
 
 const FeaturedCard = () => {

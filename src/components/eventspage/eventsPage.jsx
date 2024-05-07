@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import featuredImage from "../assets/blog-21.jpg";
+import featuredImage from "../../assets/blog-21.jpg";
 import './eventsPage.css'
 
 const EventsPage = () => {

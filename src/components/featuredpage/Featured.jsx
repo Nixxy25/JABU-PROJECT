@@ -1,4 +1,4 @@
-import FeaturedCard from "./featuredCard"
+import FeaturedCard from "../featuredpage/featuredCard"
 
 
 const Featured = () => {

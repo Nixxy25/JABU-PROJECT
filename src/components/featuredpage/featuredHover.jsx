@@ -1,5 +1,5 @@
 import "./featured.css";
-import featuredLogo from "../assets/grid.png";
+import featuredLogo from "../../assets/grid.png";
 
 const FeaturedHover = () => {
   return (
