@@ -33,15 +33,27 @@ const Sponsorspage = () => {
     <div className=" px-24 py-20 max-sm:px-4 max-lg:px-10">
         <div className="text-center text-xl font-bold pb-10">340+ Leading Universities And Companies</div>
 
+<<<<<<< HEAD
        
       
           <Carousel responsive={responsive}  
             removeArrowOnDeviceType={["tablet", "mobile","desktop"]} 
             className=" flex items-center justify-around border-2 logos border-gray-300  p-10 max-sm:px-8 max-sm:py-6 "
+=======
+        
+      
+          <Carousel responsive={responsive}  
+            removeArrowOnDeviceType={["tablet", "mobile","desktop"]} 
+            className=" flex items-center p-6 border-2 logos border-gray-300 "
+>>>>>>> 5a00c634dfc42ce2b88a03e92d6fc964604a8f9f
             autoPlay={true}
-            infinite={true}
+            
             autoPlaySpeed={1500}
             
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 5a00c634dfc42ce2b88a03e92d6fc964604a8f9f
           >
             <img className="w-32" src={clickup} alt=""></img>
             <img className="w-32"  src={twillo} alt=""></img>
