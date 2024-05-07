@@ -37,7 +37,7 @@ const EventsPage = () => {
               
             </div>
 
-            <Carousel className="px-2 py-3" responsive={responsive}>
+            <Carousel className="px-2 py-3 " responsive={responsive}>
                 <div className="card bg-white py-6 px-4 rounded-lg flex flex-col gap-4 mr-6">
                     <div><img  className="card-img" alt="featuredImage" src={featuredImage}></img></div>
 
