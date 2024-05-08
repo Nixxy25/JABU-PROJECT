@@ -31,8 +31,8 @@ const Navbar = () => {
   return (
         <nav className="px-24 py-6 relative max-sm:p-0 max-lg:px-0 ">
 
-           
-                <div className="flex items-center fixed top-0 z-10 border-b border-gray-300 right-0 left-0 bg-white w-full justify-between gap-10 max-lg:hidden px-24 py-2">
+            <div className="fixed top-0 z-10 border-b border-gray-300 right-0 left-0">
+                <div className="flex items-center  bg-white w-full justify-between  max-lg:hidden px-24 py-2">
                     <div className="flex items-center gap-4">
                         <img className="cursor-pointer w-32 " alt="poolot-logo" src={poolot}></img>
                         
@@ -60,6 +60,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
+            </div>
             
 
             <div className="lg:hidden relative ">
