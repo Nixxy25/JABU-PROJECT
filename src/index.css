@@ -9,3 +9,11 @@
 .changes:hover{
     transition: 0.5s;
 }
+
+.popup-bg{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.unscrollable {
+    overflow: hidden;
+}
