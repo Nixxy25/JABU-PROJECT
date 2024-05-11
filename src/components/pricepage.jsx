@@ -35,7 +35,7 @@ const Pricepage = ({handlePrice}) => {
     <form onSubmit={handleSubmit} className="flex flex-col justify-content items-center gap-4">
         <label htmlFor="price" className="font-bold">Select a Price: </label>
         <select  value={price} onChange={handleOptionChange} className="border border-black rounded-md outline-none px-4 py-1" >
-            <option value="" className="max-sm:text-sm">Enter the value</option>
+            <option value="" className="max-sm:text-sm">Enter the price</option>
             <option value="price1">$10</option>
             <option value="price2">$20</option>
             <option value="price3">$30</option>
