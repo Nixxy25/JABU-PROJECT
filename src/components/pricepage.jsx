@@ -1,11 +1,16 @@
 import { useState } from "react";
+import ThankyouPopup from "./ThankyouPopup";
 
 
 const Pricepage = ({handlePrice}) => {
     const [price, setPrice] = useState("");
     const [priceError, setPriceError] = useState("");
 
+    const [thankYouPopup, setThankYouPopup] = useState(false);
     
+    const handleThankyouOpen = () => {
+        setThankYouPopup(false);
+    }
 
     const handleOptionChange = (e) => {
         setPrice(e.target.value);
@@ -19,7 +24,8 @@ const Pricepage = ({handlePrice}) => {
             setPriceError("priceError");
         } else{
             setPriceError("")
-            handlePrice();
+            
+            setThankYouPopup(true);
         }
        
         
@@ -36,7 +42,9 @@ const Pricepage = ({handlePrice}) => {
             <option value="price4">$40</option>
             <option value="price5">$50</option>
         </select>
-        <div><button type="submit" className="bg-blue-600 rounded-md px-3 py-1 text-white">Finish</button></div>
+        <div><button type="submit" className="bg-blue-600 rounded-md px-3 py-1 text-white">Finish</button>
+        {thankYouPopup && <ThankyouPopup onCloseThankyouPopup={handleThankyouOpen} />}
+        </div>
         {priceError && (<p className="text-red-500 font-bold">Select a price</p>)}   
        
     </form>
