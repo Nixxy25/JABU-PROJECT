@@ -6,7 +6,7 @@ import "./featured.css";
 const FeaturedCard = () => {
   return (
     <div>
-    <div className="grid grid-cols-3 gap-8 max-sm:grid-cols-1 max-lg:grid-cols-2">
+    <div className="grid grid-cols-3 gap-10 max-sm:grid-cols-1 max-lg:grid-cols-2">
             
         
     <div className="card bg-white py-4 rounded-lg p-2 flex flex-col gap-5">

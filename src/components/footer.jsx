@@ -54,7 +54,7 @@ const Footer = () => {
                     off your next course.</p>
 
                     <div className="flex justify-between border border-gray-300 px-3 py-1 rounded-md">
-                        <input className="bg-gray-200" placeholder="Enter your email" type="email"></input>
+                        <input className="bg-gray-200 outline-none" placeholder="Enter your email" type="email"></input>
                         <button type="button" className="bg-blue-600 px-4 py-2 rounded-md text-white">Subcribe</button>
                     </div>
 

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .active{
-    background-color: red;
+    background-color: orangered;
 }
 
 .changes:hover{
