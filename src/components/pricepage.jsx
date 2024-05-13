@@ -24,18 +24,19 @@ const Pricepage = ({handlePrice}) => {
         try{
             const response = await axios.post("https://1b26-105-113-12-157.ngrok-free.app/api/v1/pay/initiate",{price});
             window.location.href = response.data.paymentUrl;
+            if (price === ""){
+                setPriceError("priceError");
+            } else{
+                setPriceError("")
+                
+                setThankYouPopup(true);
+            }
         } catch (error){
-            console.log("Error processing payment:", error);
-            alert("error payment")
+            console.log("PAYMENT SECTION IS ON MAINTAINANCE MODE:", error);
+            alert("PAYMENT SECTION IS ON MAINTAINANCE MODE")
         }
 
-        if (price === ""){
-            setPriceError("priceError");
-        } else{
-            setPriceError("")
-            
-            setThankYouPopup(true);
-        }
+       
     }
   return (
     <form className="flex flex-col justify-content items-center gap-4">
