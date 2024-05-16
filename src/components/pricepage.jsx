@@ -33,7 +33,7 @@ const Pricepage = ({handlePrice}) => {
             }
         } catch (error){
             console.log("PAYMENT SECTION IS ON MAINTAINANCE MODE:", error);
-            alert("PAYMENT SECTION IS ON MAINTAINANCE MODE")
+            alert("PAYMENT SECTION IS ON MAINTAINANCE")
         }
 
        
